@@ -1,0 +1,33 @@
+{
+  "name": "star_notary",
+  "version": "1.0.0",
+  "description": "Distributed star notary service",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveRedka/Star_Notary.git"
+  },
+  "keywords": [
+    "blockchain",
+    "astronomy",
+    "solidity"
+  ],
+  "author": "me",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SteveRedka/Star_Notary/issues"
+  },
+  "homepage": "https://github.com/SteveRedka/Star_Notary#readme"
+}

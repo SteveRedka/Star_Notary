@@ -17,7 +17,6 @@ before(async function() {
 it('can Create a Star', async() => {
     let tokenId = 1; // This is bad
     await instance.createStar('Awesome Star!', tokenId, {from: accounts[0]})
-    assert.equal(latestId, tokenId)
     assert.equal(await instance.tokenIdToStarInfo.call(tokenId), 'Awesome Star!')
 });
 
